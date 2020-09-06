@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1cb85594-8b6d-4c6c-b83d-fd8ebc95044c" name="Default Changelist" comment="ver preFinal" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="ad8c5ca8-bcaa-4011-be18-aaef9d4a21e9" />
+  </component>
+  <component name="ProjectId" id="1gN0mIsof49oxgrip3XWSSZENXw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="gulp" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="gulp" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.gulp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1cb85594-8b6d-4c6c-b83d-fd8ebc95044c" name="Default Changelist" comment="" />
+      <created>1597939902892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597939902892</updated>
+      <workItem from="1597939907131" duration="2768000" />
+      <workItem from="1598019184235" duration="6129000" />
+      <workItem from="1598286224170" duration="2402000" />
+      <workItem from="1598350656720" duration="544000" />
+      <workItem from="1598355937383" duration="12399000" />
+      <workItem from="1598606051583" duration="23027000" />
+      <workItem from="1598716008997" duration="10137000" />
+      <workItem from="1598779384412" duration="13021000" />
+      <workItem from="1598869729394" duration="1508000" />
+      <workItem from="1598963957545" duration="15963000" />
+      <workItem from="1599130837298" duration="15747000" />
+      <workItem from="1599229502507" duration="858000" />
+      <workItem from="1599308515757" duration="1580000" />
+    </task>
+    <task id="LOCAL-00001" summary="ver preFinal">
+      <created>1597942702042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597942702042</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ver preFinal">
+      <created>1599311220864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599311220864</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ver preFinal" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver preFinal" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599309509641">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1599309509641" />
+    <state width="1659" height="85" key="GridCell.Tab.0.bottom" timestamp="1598982735109">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="85" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1598982735109" />
+    <state width="1659" height="85" key="GridCell.Tab.0.center" timestamp="1598982735109">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="85" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1598982735109" />
+    <state width="1659" height="85" key="GridCell.Tab.0.left" timestamp="1598982735108">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="85" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1598982735108" />
+    <state width="1659" height="85" key="GridCell.Tab.0.right" timestamp="1598982735109">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="85" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1598982735109" />
+    <state x="341" y="149" key="SettingsEditor" timestamp="1599311200959">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="341" y="149" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1599311200959" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1599311273113">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1599311273113" />
+    <state x="545" y="101" width="590" height="807" key="find.popup" timestamp="1598287262434">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="545" y="101" width="590" height="807" key="find.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1598287262434" />
+  </component>
+</project>
