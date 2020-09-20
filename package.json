@@ -11,6 +11,7 @@
   "dependencies": {
     "jquery": "3.5.1",
     "popper.js": "1.16.0",
+    "bootstrap": "^4.2.1",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
@@ -27,7 +28,7 @@
     "gulp-sourcemaps": "~2.6.5",
     "gulp-uglify": "~3.0.2",
     "imagemin-jpeg-recompress": "~6.0.0",
-    "imagemin-pngquant": "~8.0.0",
+    "imagemin-pngquant": "^9.0.0",
     "gulp-rename": "~2.0.0"
   },
   "scripts": {

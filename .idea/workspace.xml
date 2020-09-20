@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cb85594-8b6d-4c6c-b83d-fd8ebc95044c" name="Default Changelist" comment="ver preFinal" />
+    <list default="true" id="1cb85594-8b6d-4c6c-b83d-fd8ebc95044c" name="Default Changelist" comment="ver preFinal">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,11 +42,44 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.gulp">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>build</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="webserver" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>webserver</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="gulp" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -56,6 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gulp.js.webserver" />
+        <item itemvalue="Gulp.js.build" />
         <item itemvalue="npm.gulp" />
       </list>
     </recent_temporary>
@@ -81,6 +119,11 @@
       <workItem from="1599130837298" duration="15747000" />
       <workItem from="1599229502507" duration="858000" />
       <workItem from="1599308515757" duration="1580000" />
+      <workItem from="1599838376295" duration="16000" />
+      <workItem from="1599838405448" duration="583000" />
+      <workItem from="1599926932372" duration="14000" />
+      <workItem from="1600523355960" duration="824000" />
+      <workItem from="1600532526369" duration="361000" />
     </task>
     <task id="LOCAL-00001" summary="ver preFinal">
       <created>1597942702042</created>
@@ -123,21 +166,25 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1599309509641" />
-    <state width="1659" height="85" key="GridCell.Tab.0.bottom" timestamp="1598982735109">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1600532890515">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600532890515" />
     <state width="1659" height="85" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1598982735109" />
-    <state width="1659" height="85" key="GridCell.Tab.0.center" timestamp="1598982735109">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1600532890515">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600532890515" />
     <state width="1659" height="85" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1598982735109" />
-    <state width="1659" height="85" key="GridCell.Tab.0.left" timestamp="1598982735108">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1600532890515">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600532890515" />
     <state width="1659" height="85" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1598982735108" />
-    <state width="1659" height="85" key="GridCell.Tab.0.right" timestamp="1598982735109">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1600532890515">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600532890515" />
     <state width="1659" height="85" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1598982735109" />
     <state x="341" y="149" key="SettingsEditor" timestamp="1599311200959">
       <screen x="0" y="0" width="1680" height="1010" />
