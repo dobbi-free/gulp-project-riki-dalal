@@ -21,6 +21,19 @@
   <component name="ChangeListManager">
     <list default="true" id="1cb85594-8b6d-4c6c-b83d-fd8ebc95044c" name="Default Changelist" comment="ver preFinal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/fonts/Poppins-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/fonts/Poppins-Thin.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/fonts/Poppins-Thin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/fonts/Poppins-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/fonts/Poppins-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/img/trends__img1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/img/trends__img1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/img/trends__img1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/img/Без названия.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/js/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/my.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/template/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Boutiques" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -63,6 +76,17 @@
       <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
       <tasks>
         <task>build</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="default" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
       </tasks>
       <arguments />
       <envs />
@@ -91,9 +115,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.gulp" />
+        <item itemvalue="Gulp.js.default" />
         <item itemvalue="Gulp.js.build" />
         <item itemvalue="Gulp.js.webserver" />
-        <item itemvalue="npm.gulp" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +164,19 @@
       <workItem from="1600606668608" duration="647000" />
       <workItem from="1600610006666" duration="1330000" />
       <workItem from="1600611352487" duration="796000" />
+      <workItem from="1600612684145" duration="822000" />
+      <workItem from="1600679299092" duration="19744000" />
+      <workItem from="1600768759095" duration="12133000" />
+      <workItem from="1600859345545" duration="8567000" />
+      <workItem from="1600943060231" duration="18178000" />
+      <workItem from="1601033819468" duration="10525000" />
+      <workItem from="1601061411407" duration="4000" />
+      <workItem from="1601216108550" duration="11591000" />
+      <workItem from="1601230807483" duration="572000" />
+      <workItem from="1601300744402" duration="8095000" />
+      <workItem from="1601313404325" duration="6298000" />
+      <workItem from="1601397108996" duration="9032000" />
+      <workItem from="1601457044662" duration="17374000" />
     </task>
     <task id="LOCAL-00001" summary="ver preFinal">
       <created>1597942702042</created>
@@ -189,21 +227,25 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1600509441279" />
-    <state width="1659" height="260" key="GridCell.Tab.0.bottom" timestamp="1600611713602">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1515" height="109" key="GridCell.Tab.0.bottom" timestamp="1601489801905">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="109" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601489801905" />
     <state width="1659" height="260" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600611713602" />
-    <state width="1659" height="260" key="GridCell.Tab.0.center" timestamp="1600611713602">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1515" height="109" key="GridCell.Tab.0.center" timestamp="1601489801905">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="109" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601489801905" />
     <state width="1659" height="260" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600611713602" />
-    <state width="1659" height="260" key="GridCell.Tab.0.left" timestamp="1600611713602">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1515" height="109" key="GridCell.Tab.0.left" timestamp="1601489801905">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="109" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601489801905" />
     <state width="1659" height="260" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600611713602" />
-    <state width="1659" height="260" key="GridCell.Tab.0.right" timestamp="1600611713602">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1515" height="109" key="GridCell.Tab.0.right" timestamp="1601489801905">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="109" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601489801905" />
     <state width="1659" height="260" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600611713602" />
     <state x="341" y="149" key="SettingsEditor" timestamp="1599311200959">
       <screen x="0" y="0" width="1680" height="1010" />
@@ -213,9 +255,21 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1599413274579" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1600768874637">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1600768874637" />
     <state x="545" y="101" width="590" height="807" key="find.popup" timestamp="1598287262434">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="545" y="101" width="590" height="807" key="find.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1598287262434" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1601403519027">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601403519027" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600795984117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600795984117" />
   </component>
 </project>
