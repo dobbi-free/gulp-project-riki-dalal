@@ -29,12 +29,48 @@ $(document).ready(function () {
         autoplay: false
     });
 
+    $('.trends__slider').slick({
+        dots: true,
+        infinite: true,
+        arrows: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        nextArrow: '.trends__arrow-prev',
+        prevArrow: '.trends__arrow-next'
+    });
+
+    $('.collections__slider').slick({
+        dots: true,
+        infinite: true,
+        arrows: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        nextArrow: '.collections__arrow-prev',
+        prevArrow: '.collections__arrow-next'
+    });
+
+    $('.dress__slider').slick({
+        dots: true,
+        infinite: true,
+        arrows: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        nextArrow: '.dress__arrow-prev',
+        prevArrow: '.dress__arrow-next'
+    });
+
     $('.instagram__slider').slick({
         dots: false,
         infinite: true,
         arrows: false,
         speed: 300,
-        slidesToShow: 5,
+        slidesToShow: 6,
         slidesToScroll: 3,
         autoplay: true,
 
@@ -145,6 +181,90 @@ $(document).mouseup(function (e) {
 
 select();
 
+function deviceNav() {
+    $('.sendwich').click(function () {
+        $(this).find('.sendwich-btn').toggleClass('active');
+        $(this).siblings('ul').toggleClass('active');
+    });
+};
 
 
+$(function () {
+    var dateFormat = "mm/dd/yy",
+        from = $("#from")
+            .datepicker({
+                defaultDate: "+1w",
+                changeMonth: true,
+                numberOfMonths: 1
+            })
+            .on("change", function () {
+                to.datepicker("option", "minDate", getDate(this));
+            }),
+        to = $("#to").datepicker({
+            defaultDate: "+1w",
+            changeMonth: true,
+            numberOfMonths: 1
+        })
+            .on("change", function () {
+                from.datepicker("option", "maxDate", getDate(this));
+            });
+
+    function getDate(element) {
+        var date;
+        try {
+            date = $.datepicker.parseDate(dateFormat, element.value);
+        } catch (error) {
+            date = null;
+        }
+
+        return date;
+    }
+});
+
+$(".event__button-bottom").click(function () {
+    $(this).toggleClass("button__active", 1000,);
+});
+
+$(document).ready(function () {
+    $('.header__burger').click(function (event) {
+        $('.header__burger,.menu').toggleClass('active')
+        $('body').toggleClass('lock')
+    });
+});
+
+$(document).ready(function () {
+    $('.open-desc').click(function (event) {
+        $('.description-block,.svg-desc').addClass('active')
+    });
+});
+
+$(document).ready(function () {
+    $('.close-desc').click(function (event) {
+        $('.description-block,.svg-desc').removeClass('active')
+    });
+});
+
+$(document).ready(function () {
+    $('.open-desc').click(function (event) {
+        $('.svg-open').addClass('active')
+    });
+});
+
+$(document).ready(function () {
+    $('.close-desc').click(function (event) {
+        $('.svg-open').removeClass('active')
+    });
+});
+
+$(document).ready(function () {
+    $('.close-desc').click(function (event) {
+        $('.svg-close').addClass('active')
+    });
+});
+
+$(document).ready(function () {
+    $('.open-desc').click(function (event) {
+        $('.svg-close').removeClass('active')
+    });
+});
 

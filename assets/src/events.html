@@ -1,0 +1,392 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riki Dalal</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+          integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+          integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+
+//= template/header.html
+
+<main>
+    <div class="nav-links">
+        <div class="container">
+            <a class="nav-links__back" href="#">Riki Dalal /</a>
+            <a class="nav-links__current" href="#">Events</a>
+        </div>
+    </div>
+
+    <section class="event">
+        <div class="container">
+            <div class="event__title">
+                <h2 class="title">In-store Events</h2>
+            </div>
+            <div class="event__form">
+                <h4 class="title-form">Find your event near:</h4>
+                <form action="#" class="event__form-top">
+                    <input class="event__input" type="text" placeholder="Enter city/region">
+                    <div class="select__wrap">
+                        <p>within</p>
+                        <div class="select select__event">
+                            <div class="select__header select__header-event">
+                                <span class="select__current select__current-event">Any</span>
+                                <div class="select__icon select__icon-event">&lsaquo;</div>
+                            </div>
+                            <div class="select__body select__body-event">
+                                <div class="select__item select__item-event"><span>Any</span></div>
+                                <div class="select__item select__item-event"><span>Any</span></div>
+                            </div>
+                        </div>
+                        <p>km</p>
+                    </div>
+                    <div class="button button__event">
+                        <div class="button__wrap">
+                            <a href="#" class="button__link button__link-event">Send</a>
+                        </div>
+                    </div>
+                    <div class="form__clear">
+                        <a href="#">clear</a>
+                    </div>
+                </form>
+
+                <h4 class="title-form">When do you want to go?</h4>
+                <form action="#" class="event__form-bottom">
+                    <div class="event__button-wrap">
+
+                        <div class="event__button-bottom">
+                            Any
+                        </div>
+                        <div class="event__button-bottom">
+                            Today
+                        </div>
+                    </div>
+                    <div class="event__button-wrap">
+                        <div class="event__button-bottom">
+                            Next 7 days
+                        </div>
+                        <div class="event__button-bottom">
+                            Next 30 days
+                        </div>
+                    </div>
+                    <div class="calendar">
+                        <label for="from">From - to</label>
+                        <input type="text" id="from" name="from" placeholder="24.05">
+                        <label for="to">-</label>
+                        <input type="text" id="to" name="to" placeholder="24.05">
+                    </div>
+                    <div class="form__clear">
+                        <a href="#">clear</a>
+                    </div>
+                </form>
+            </div>
+            <div class="event__content">
+                <div class="event__content-left">
+                    <div class="event__block-wrap">
+                        <p class="event__data">15.07.2019 - 16.07.2019</p>
+                        <h4 class="event__title-block">London, United Kingdom</h4>
+                        <p class="event__location">Pronovias Girona (3651 km)</p>
+                        <p class="event__location">Plaça De Catalunya, 28
+                            Gerona 17002 </p>
+                        <div class="logo">
+                            <a class="logo__link" href="index.html">
+                                <img class="logo__img" src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="button button__event-block">
+                            <div class="button__wrap">
+                                <a href="" class="button__link">Attend</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event__block-wrap">
+                        <p class="event__data">15.07.2019 - 16.07.2019</p>
+                        <h4 class="event__title-block">London, United Kingdom</h4>
+                        <p class="event__location">Pronovias Girona (3651 km)</p>
+                        <p class="event__location">Plaça De Catalunya, 28
+                            Gerona 17002 </p>
+                        <div class="logo">
+                            <a class="logo__link" href="index.html">
+                                <img class="logo__img" src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="button button__event-block">
+                            <div class="button__wrap">
+                                <a href="" class="button__link">Attend</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event__block-wrap">
+                        <p class="event__data">15.07.2019 - 16.07.2019</p>
+                        <h4 class="event__title-block">London, United Kingdom</h4>
+                        <p class="event__location">Pronovias Girona (3651 km)</p>
+                        <p class="event__location">Plaça De Catalunya, 28
+                            Gerona 17002 </p>
+                        <div class="logo">
+                            <a class="logo__link" href="index.html">
+                                <img class="logo__img" src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="button button__event-block">
+                            <div class="button__wrap">
+                                <a href="" class="button__link">Attend</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event__block-wrap">
+                        <p class="event__data">15.07.2019 - 16.07.2019</p>
+                        <h4 class="event__title-block">London, United Kingdom</h4>
+                        <p class="event__location">Pronovias Girona (3651 km)</p>
+                        <p class="event__location">Plaça De Catalunya, 28
+                            Gerona 17002 </p>
+                        <div class="logo">
+                            <a class="logo__link" href="index.html">
+                                <img class="logo__img" src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="button button__event-block">
+                            <div class="button__wrap">
+                                <a href="" class="button__link">Attend</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event__block-wrap">
+                        <p class="event__data">15.07.2019 - 16.07.2019</p>
+                        <h4 class="event__title-block">London, United Kingdom</h4>
+                        <p class="event__location">Pronovias Girona (3651 km)</p>
+                        <p class="event__location">Plaça De Catalunya, 28
+                            Gerona 17002 </p>
+                        <div class="logo">
+                            <a class="logo__link" href="index.html">
+                                <img class="logo__img" src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="button button__event-block">
+                            <div class="button__wrap">
+                                <a href="" class="button__link">Attend</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event__block-wrap">
+                        <p class="event__data">15.07.2019 - 16.07.2019</p>
+                        <h4 class="event__title-block">London, United Kingdom</h4>
+                        <p class="event__location">Pronovias Girona (3651 km)</p>
+                        <p class="event__location">Plaça De Catalunya, 28
+                            Gerona 17002 </p>
+                        <div class="logo">
+                            <a class="logo__link" href="index.html">
+                                <img class="logo__img" src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="button button__event-block">
+                            <div class="button__wrap">
+                                <a href="" class="button__link">Attend</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event__content-right">
+                    <div class="right-block">
+                        <div class="logo">
+                            <a class="logo__link" href="index.html">
+                                <img class="logo__img" src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <p class="event__data">15.07.2019 - 16.07.2019</p>
+                        <p class="event__location">Pronovias Girona (3651 km)</p>
+                        <p class="event__location">Plaça De Catalunya, 28
+                            Gerona 17002 </p>
+                        <div class="button button__event-block">
+                            <div class="button__wrap">
+                                <a href="" class="button__link">Attend</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="right-block">
+                        <p class="event__data">15.07.2019 - 16.07.2019</p>
+                        <p class="event__location">Pronovias Girona (3651 km)</p>
+                        <p class="event__location">Plaça De Catalunya, 28
+                            Gerona 17002 </p>
+                        <div class="button button__event-block">
+                            <div class="button__wrap">
+                                <a href="" class="button__link">Attend</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-block">
+                        <p class="event__data">15.07.2019 - 16.07.2019</p>
+                        <p class="event__location">Pronovias Girona (3651 km)</p>
+                        <p class="event__location">Plaça De Catalunya, 28
+                            Gerona 17002 </p>
+                        <div class="button button__event-block">
+                            <div class="button__wrap">
+                                <a href="" class="button__link">Attend</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-block">
+                        <p class="event__data">15.07.2019 - 16.07.2019</p>
+                        <p class="event__location">Pronovias Girona (3651 km)</p>
+                        <p class="event__location">Plaça De Catalunya, 28
+                            Gerona 17002 </p>
+                        <div class="button button__event-block">
+                            <div class="button__wrap">
+                                <a href="" class="button__link">Attend</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-block">
+                        <p class="event__data">15.07.2019 - 16.07.2019</p>
+                        <p class="event__location">Pronovias Girona (3651 km)</p>
+                        <p class="event__location">Plaça De Catalunya, 28
+                            Gerona 17002 </p>
+                        <div class="button button__event-block">
+                            <div class="button__wrap">
+                                <a href="" class="button__link">Attend</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="event__content-bottom">
+                <div class="event__block-wrap">
+                    <p class="event__data">15.07.2019 - 16.07.2019</p>
+                    <h4 class="event__title-block">London, United Kingdom</h4>
+                    <p class="event__location">Pronovias Girona (3651 km)</p>
+                    <p class="event__location">Plaça De Catalunya, 28
+                        Gerona 17002 </p>
+                    <div class="logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__img" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="button button__event-block">
+                        <div class="button__wrap">
+                            <a href="" class="button__link">Attend</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event__block-wrap">
+                    <p class="event__data">15.07.2019 - 16.07.2019</p>
+                    <h4 class="event__title-block">London, United Kingdom</h4>
+                    <p class="event__location">Pronovias Girona (3651 km)</p>
+                    <p class="event__location">Plaça De Catalunya, 28
+                        Gerona 17002 </p>
+                    <div class="logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__img" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="button button__event-block">
+                        <div class="button__wrap">
+                            <a href="" class="button__link">Attend</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event__block-wrap">
+                    <p class="event__data">15.07.2019 - 16.07.2019</p>
+                    <h4 class="event__title-block">London, United Kingdom</h4>
+                    <p class="event__location">Pronovias Girona (3651 km)</p>
+                    <p class="event__location">Plaça De Catalunya, 28
+                        Gerona 17002 </p>
+                    <div class="logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__img" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="button button__event-block">
+                        <div class="button__wrap">
+                            <a href="" class="button__link">Attend</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event__block-wrap">
+                    <p class="event__data">15.07.2019 - 16.07.2019</p>
+                    <h4 class="event__title-block">London, United Kingdom</h4>
+                    <p class="event__location">Pronovias Girona (3651 km)</p>
+                    <p class="event__location">Plaça De Catalunya, 28
+                        Gerona 17002 </p>
+                    <div class="logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__img" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="button button__event-block">
+                        <div class="button__wrap">
+                            <a href="" class="button__link">Attend</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event__block-wrap">
+                    <p class="event__data">15.07.2019 - 16.07.2019</p>
+                    <h4 class="event__title-block">London, United Kingdom</h4>
+                    <p class="event__location">Pronovias Girona (3651 km)</p>
+                    <p class="event__location">Plaça De Catalunya, 28
+                        Gerona 17002 </p>
+                    <div class="logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__img" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="button button__event-block">
+                        <div class="button__wrap">
+                            <a href="" class="button__link">Attend</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event__block-wrap">
+                    <p class="event__data">15.07.2019 - 16.07.2019</p>
+                    <h4 class="event__title-block">London, United Kingdom</h4>
+                    <p class="event__location">Pronovias Girona (3651 km)</p>
+                    <p class="event__location">Plaça De Catalunya, 28
+                        Gerona 17002 </p>
+                    <div class="logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__img" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="button button__event-block">
+                        <div class="button__wrap">
+                            <a href="" class="button__link">Attend</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+
+//= template/footer.html
+
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
