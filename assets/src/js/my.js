@@ -71,9 +71,19 @@ $(document).ready(function () {
         arrows: false,
         speed: 300,
         slidesToShow: 6,
-        slidesToScroll: 3,
-        autoplay: true,
+        slidesToScroll: 1,
+        autoplay: false,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerPadding: '40px',
+                    slidesToShow: 2,
 
+                }
+            }
+        ]
     });
 
     $('.product__slider').slick({
