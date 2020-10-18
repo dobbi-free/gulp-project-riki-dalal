@@ -182,7 +182,7 @@ ul {
 
   a {
     display: block;
-    padding: 11px 0;
+    padding: 13px 0;
     color: #fff;
     background-color: #c5a672;
     border: solid 1px #c5a672;
@@ -259,7 +259,7 @@ ul {
 .button-clear {
   border: solid 1.5px #bbb;
   padding: 2px;
-  max-width: 215px;
+  max-width: 200px;
   width: 100%;
 
 
@@ -486,7 +486,7 @@ ul {
 
   .collection__wrap {
     display: flex;
-    margin-top: 90px;
+    margin-top: 119px;
     justify-content: flex-end;
   }
 
@@ -685,6 +685,7 @@ ul {
 
 .clients {
   margin-bottom: 77px;
+
   .clients__title {
     margin-top: 33px;
     text-align: center;
@@ -803,7 +804,6 @@ ul {
   }
 
 
-
   .contacts__input-wrap {
     display: flex;
     justify-content: space-between;
@@ -817,7 +817,7 @@ ul {
 
 
       &:focus {
-        outline:0;
+        outline: 0;
       }
 
       &::placeholder {
@@ -915,7 +915,6 @@ ul {
 }
 
 .footer {
-  margin-top: 100px;
   border-top: solid 1px #e0e0e0;
 
   .footer__wrap {
@@ -928,7 +927,7 @@ ul {
   .footer__had {
     font-size: 16px;
     color: #686868;
-    padding-bottom: 28px;
+    padding-bottom: 11px;
   }
 
   .footer__menu {
@@ -938,14 +937,15 @@ ul {
 
   .footer__media {
     width: 33.333%;
+    padding-left: 76px;
 
     .footer__had {
-      padding-left: 18px;
     }
   }
 
   .footer__newsletter {
     width: 33.333%;
+    padding-left: 122px;
   }
 
   .footer__menu a {
@@ -1008,7 +1008,7 @@ ul {
 
   .footer__form {
     border: solid 1px #bbbbbb;
-    padding: 18px 0 14px 21px;
+    padding: 13px 0 14px 21px;
     margin-bottom: 15px;
     max-width: 270px;
     width: 100%;
@@ -1074,6 +1074,49 @@ ul {
     border-top: 1px solid #f0f0f0;
     border-left: 1px solid #f0f0f0;
   }
+
+
+  @keyframes rotatings {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+
+  }
+
+
+  .animate-circles {
+
+
+    &::before,
+    &::after {
+      width: 80px;
+      height: 80px;
+      content: "";
+      display: block;
+      position: absolute;
+      top: calc(50% - 40px);
+      left: calc(50% - 40px);
+      background-image: url('../img/circle-smaller.png');
+      animation: rotatings 3s cubic-bezier(0.25, 0.53, 0.44, -1.32) infinite reverse;
+
+    }
+
+    &::after {
+      width: 65px;
+      height: 65px;
+      top: calc(50% - 32px);
+      left: calc(50% - 32px);
+      background-image: url('../img/circle-bigger.png');
+      animation: rotatings 3s cubic-bezier(0.25, 0.53, 0.44, -1.32) infinite reverse;
+
+    }
+
+  }
+
+
 }
 
 
@@ -1084,14 +1127,14 @@ ul {
   word-spacing: 3px;
 
   .nav-links__back {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     color: #dfdfdf;
     text-decoration: none;
   }
 
   .nav-links__current {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     color: #e5d4b8;
     text-decoration: none;
@@ -1148,6 +1191,10 @@ ul {
     justify-content: space-between;
   }
 
+  .worldwide__mobile-title {
+    display: none;
+  }
+
 
   .boutiques__block {
     margin-top: 30px;
@@ -1198,7 +1245,7 @@ ul {
 
   .boutiques__links-block {
     a {
-      margin: 0 20px;
+      margin: 0 10px;
       text-decoration: none;
 
       svg {
@@ -1368,7 +1415,7 @@ ul {
 
   .worldwide__links-block {
     a {
-      margin: 0 20px;
+      margin: 0 10px;
       text-decoration: none;
 
       svg {
@@ -1673,8 +1720,8 @@ ul {
 
   .category__title {
     text-align: center;
-    margin-top: 45px;
-    margin-bottom: 60px;
+    margin-top: 37px;
+    margin-bottom: 43px;
   }
 
   .titles__form {
@@ -1779,7 +1826,7 @@ ul {
 
   .img-link {
     position: relative;
-    width: calc(33.333% - 15px);
+    width: calc(33.333% - 18px);
   }
 
   .category__img {
@@ -1848,7 +1895,7 @@ ul {
       letter-spacing: 0.24px;
       color: #686868;
       margin: 0;
-      padding: 5px 0 18px 20px;
+      padding: 16px 0 0 20px;
     }
 
     p {
@@ -1858,14 +1905,14 @@ ul {
       line-height: 1.75;
       letter-spacing: 0.16px;
       color: #bbbbbb;
-      padding: 19px 0 30px 20px;
+      padding: 6px 0 30px 20px;
       max-width: 251px;
       width: 100%;
     }
   }
 
   .category__info {
-    margin-top: 85px;
+    margin-top: 46px;
     margin-bottom: 99px;
 
     p {
@@ -1895,16 +1942,17 @@ ul {
   .opportunities__content {
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 24px;
     flex-wrap: wrap;
+    margin-bottom: 53px;
   }
 
   .opportunities__block {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
-    width: calc(33.333% - 30px);
-    padding: 49px 28px 60px 29px;
+    width: calc(33.333% - 19px);
+    padding: 49px 28px 25px 29px;
     position: relative;
-    height: 600px;
+    height: 549px;
   }
 
   .opportunities__title-block {
@@ -1929,7 +1977,7 @@ ul {
     line-height: 1.75;
     color: #bbbbbb;
     position: relative;
-    margin-top: 11px;
+    margin-top: 10px;
     padding-left: 15px;
 
     &:before {
@@ -2084,7 +2132,6 @@ ul {
       }
     }
   }
-
 
 
   .prev-arrow {
@@ -2327,9 +2374,6 @@ ul {
 
     }
 
-    .slick-initialized .slick-slide {
-      border: 1px solid rgb(197, 166, 114);
-    }
 
     .next-arrow__bottom {
       left: 100%;
@@ -2379,6 +2423,11 @@ ul {
 
 
     .slider-nav__bottom {
+
+      .slider-nav__item, .slick-slide, .slick-active {
+        border: 1px solid rgb(197, 166, 114);
+      }
+
       .slick-list {
         width: 728px;
         margin: 0 auto;
@@ -2407,15 +2456,15 @@ ul {
 .event {
   .event__title {
     text-align: center;
-    margin-top: 46px;
-    margin-bottom: 60px;
+    margin-top: 34px;
+    margin-bottom: 47px;
   }
 
   .title-form {
     font-size: 24px;
     color: #ffffff;
     text-align: center;
-    padding-top: 49px;
+    padding-top: 41px;
     margin-bottom: 33px;
   }
 
@@ -2424,7 +2473,7 @@ ul {
     background-color: #c5a672;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
 
   .event__form-top {
@@ -2511,7 +2560,7 @@ ul {
   .event__input {
     max-width: 491px;
     width: 100%;
-    padding: 6px 102px 6px 21px;
+    padding: 5px 102px 5px 21px;
     border: solid 1px #fff;
     outline: 0;
     background-color: #c5a672;
@@ -2535,7 +2584,6 @@ ul {
   }
 
   .button__event {
-    height: 47px;
     background-color: #c5a672;
     transition: all ease 400ms;
     border-color: #fff;
@@ -2576,8 +2624,8 @@ ul {
     background-color: #c5a672;
     font-size: 16px;
     height: 50px;
-    margin-right: 30px;
     color: #fff;
+    margin-right: 30px;
     padding: 15px 0;
   }
 
@@ -2625,7 +2673,7 @@ ul {
   }
 
   .event__content-left {
-    width: calc(66.666% - 30px);
+    width: calc(66.666% - 11px);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -2634,12 +2682,13 @@ ul {
 
 
   .event__block-wrap {
-    width: calc(370px - 15px);
-    padding: 54px 54px;
+    max-width: 370px;
+    padding: 45px 54px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
     text-align: center;
-    height: 450px;
+    height: 425px;
     margin-bottom: 30px;
+    width: 100%;
   }
 
   .event__data {
@@ -2669,8 +2718,9 @@ ul {
   }
 
   .event__content-right {
+    padding-top: 7px;
     text-align: center;
-    width: calc(33.333% - 15px);
+    width: calc(33.333% - 19px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2702,7 +2752,17 @@ ul {
 
   .event__button-wrap {
     display: flex;
+    width: 67%;
+  }
+
+  .event__button-mob {
+    display: flex;
     width: 100%;
+  }
+
+  .logo__mobile-item {
+    width: 148px;
+    height: 38px;
   }
 }
 
@@ -2781,9 +2841,10 @@ ul {
   }
 
   .request__form {
-    padding: 49px 40px 60px 40px;
+    padding: 49px 40px 18px 40px;
     background-color: #c5a672;
     margin-top: 59px;
+    margin-bottom: 100px;
 
     .request__form-content {
       display: flex;
@@ -2791,11 +2852,11 @@ ul {
     }
 
     .request__form-left {
-      width: calc(50% - 30px);
+      width: calc(50% - 15px);
     }
 
     .request__form-right {
-      width: calc(50% - 30px);
+      width: calc(50% - 15px);
       background-color: #fff;
       text-align: center;
       padding: 60px 26px 80px 26px;
@@ -2855,6 +2916,11 @@ ul {
 
     .logo-request {
       margin-top: 120px;
+
+      .logo__img-mobile {
+        width: 148px;
+        height: 38px;
+      }
     }
 
   }
@@ -2919,7 +2985,7 @@ ul {
   display: block;
   max-width: 194px;
   width: 100%;
-  padding: 12px 0;
+  padding: 9px 0;
   text-align: center;
   color: #bbb;
   margin: 0 auto;
@@ -3243,7 +3309,30 @@ ul {
   }
 
   .worldwide .button__worldwide {
-    max-width: 210px;
+    max-width: 270px;
+  }
+
+  .opportunities {
+    .opportunities__content {
+      margin-top: 0;
+
+    }
+
+    .opportunities__list-item,
+    .opportunities__subtitle-block {
+      font-size: 14px;
+    }
+
+    .opportunities__block {
+      padding: 30px 28px 25px 29px;
+    }
+
+  }
+
+  .event {
+    .event__button-bottom {
+      margin-right: 15px;
+    }
   }
 
 
@@ -3253,8 +3342,8 @@ ul {
   .header .header__burger {
     display: block;
     position: relative;
-    width: 30px;
-    height: 20px;
+    width: 20px;
+    height: 17px;
     z-index: 30;
 
   }
@@ -3284,9 +3373,9 @@ ul {
     background-color: #fff;
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 1px;
     left: 0;
-    top: 9px;
+    top: 8px;
     transition: all ease 400ms;
   }
 
@@ -3296,7 +3385,7 @@ ul {
     background-color: #fff;
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 1px;
     left: 0;
     transition: all ease 400ms;
 
@@ -3373,6 +3462,18 @@ ul {
     top: 0;
   }
 
+  .nav-links {
+    margin-top: 8px;
+
+    .nav-links__current {
+      font-size: 12px;
+    }
+
+    .nav-links__back {
+      font-size: 12px;
+    }
+  }
+
   .trends .trends__content {
     display: none;
   }
@@ -3439,11 +3540,11 @@ ul {
     background-size: cover;
     background-position: 20% 50%;
     position: relative;
-    margin-bottom: 294px;
+    margin-bottom: 275px;
 
     .banner__text {
       position: absolute;
-      bottom: -240px;
+      bottom: -217px;
       margin: 0 auto;
       left: 0;
       right: 0;
@@ -3468,6 +3569,13 @@ ul {
 
   }
 
+  .worldwide .worldwide__mobile-title {
+    display: block;
+    font-size: 24px;
+    color: #686868;
+    text-align: center;
+  }
+
 
   .title {
     font-size: 24px;
@@ -3478,6 +3586,11 @@ ul {
 
     .about__title-slider {
       padding-top: 39px;
+      font-size: 20px;
+    }
+
+    .about__subtitle {
+      margin-top: 13px;
     }
 
 
@@ -3519,7 +3632,7 @@ ul {
   .collection .button-clear__collection-mobile {
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .dress .dress__slider-wrap {
@@ -3539,12 +3652,15 @@ ul {
     align-items: center;
   }
 
+  .dress .dress__title {
+    margin-top: 40px;
+  }
+
   .contacts .contacts__content {
     box-shadow: none;
     width: 100%;
     margin: 0 auto;
   }
-
 
 
   .contacts .contacts__img {
@@ -3553,6 +3669,8 @@ ul {
 
   .contacts .contacts__wrap {
     max-width: none;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .contacts .contacts__input-message {
@@ -3584,11 +3702,12 @@ ul {
 
   .contacts .contacts__title {
     font-size: 24px;
-    margin-top: 50px;
+    margin-top: 46px;
   }
 
   .contacts .contacts__subtitle {
     font-size: 14px;
+
   }
 
   .contacts {
@@ -3606,6 +3725,7 @@ ul {
       .footer__newsletter {
         margin-top: 39px;
         width: 100%;
+        padding-left: 0;
 
         .footer__form {
           width: 100%;
@@ -3665,6 +3785,12 @@ ul {
 
   }
 
+  .opportunities {
+    .opportunities__block {
+      height: 460px;
+    }
+  }
+
   .search .search__form {
     display: block;
   }
@@ -3692,11 +3818,11 @@ ul {
   .boutiques .button__boutiques {
     margin: 0 auto;
     margin-bottom: 50px;
-    max-width: 250px;
   }
 
   .contacts .contacts__subtitle {
     text-align: center;
+    margin-bottom: 27px;
   }
 
   .contacts .contacts__title {
@@ -3725,6 +3851,7 @@ ul {
         text-align: center;
         margin-top: 100px;
         margin-bottom: 60px;
+
       }
 
       .trends__content {
@@ -3934,7 +4061,7 @@ ul {
   .opportunities {
 
     .opportunities__content {
-      margin: 92px 0 0 0;
+      margin: 41px 0 50px 0;
       justify-content: space-around;
 
       .opportunities__block {
@@ -4006,6 +4133,16 @@ ul {
     .select__wrap {
       justify-content: center;
       margin-top: 15px;
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .select__current-event {
+      span {
+        font-size: 14px;
+      }
     }
 
     .button__event {
@@ -4015,11 +4152,13 @@ ul {
 
     .event__form-bottom {
       display: block;
+
     }
 
     .event__button-wrap {
       justify-content: center;
       margin-bottom: 15px;
+      width: 100%;
     }
 
     .calendar {
@@ -4027,8 +4166,8 @@ ul {
     }
 
     .event__button-bottom {
-      margin-right: 15px;
-      margin-left: 15px;
+      margin-left: 30px;
+      margin-right: 30px;
     }
 
     .event__content-right {
@@ -4056,6 +4195,14 @@ ul {
     .event__content-bottom {
       justify-content: space-around;
       flex-wrap: wrap;
+      margin-bottom: 60px;
+    }
+
+    .calendar label {
+      font-size: 14px;
+      color: #fff;
+      padding-top: 17px;
+      margin-right: 30px;
     }
   }
 
@@ -4087,10 +4234,20 @@ ul {
 
 
 @media (max-width: 768px) {
+
+
+  .header {
+    .header__top-inner {
+      padding: 11px 0 8px 0;
+    }
+
+  }
+
   .category {
 
     .category__title {
-      margin-bottom: 30px;
+      margin-bottom: 23px;
+      margin-top: 23px;
     }
 
     .category__form {
@@ -4105,12 +4262,18 @@ ul {
       justify-content: space-around;
       flex-wrap: wrap;
       margin: 0;
+
+    }
+
+    .category__mobile-nav {
+      margin-bottom: -16px;
     }
 
     .img-link {
       max-width: 345px;
       width: 100%;
-      margin-top: 35px;
+      margin-top: 32px;
+
     }
 
     .img-link__description {
@@ -4139,7 +4302,68 @@ ul {
     }
   }
 
+
+  .event {
+    .event__title {
+      margin-top: 23px;
+      margin-bottom: 42px;
+    }
+
+    .title-form {
+      margin-bottom: 25px;
+    }
+
+    .event__form {
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 40px;
+      position: absolute;
+      left: 0;
+      width: 100%;
+    }
+
+    .event__input {
+      padding: 13px 102px 10px 21px;
+    }
+
+    .event__button-wrap {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .event__button-mob {
+      display: flex;
+      width: 100%;
+      margin-bottom: 27px;
+      justify-content: space-between;
+    }
+
+    .event__button-bottom {
+      max-width: 165px;
+    }
+
+    .calendar {
+      margin-top: -24px;
+    }
+
+    .event__content {
+      margin-top: 763px;
+    }
+
+    .event__data,
+    .event__location {
+      font-size: 14px;
+    }
+
+
+  }
+
   .blog {
+
+    .blog__title {
+      margin: 21px 0 33px 0;
+    }
+
     .blog__content {
       padding: 20px 10px 19px 14px;
 
@@ -4198,10 +4422,30 @@ ul {
     }
   }
 
+  .trends {
+    .trends__title {
+      text-align: center;
+      margin-top: -76px;
+      margin-bottom: 34px;
+
+    }
+
+    .img-link__description p {
+      font-size: 14px;
+      padding: 13px 0 30px 20px;
+    }
+
+    .img-link__description h4 {
+      font-size: 20px;
+      padding: 8px 0 0 16px;
+    }
+  }
+
 
 }
 
 @media (max-width: 468px) {
+
   .about {
     margin-bottom: 435px;
 
@@ -4214,12 +4458,15 @@ ul {
       width: 100%;
       margin: 0 auto;
       display: block;
+      height: 300px;
     }
 
     .about__slider {
       max-width: 400px;
       bottom: -350px;
       right: auto;
+      transform: translateY(-8px);
+
     }
 
     .about__description-slider {
@@ -4261,5 +4508,166 @@ ul {
       font-size: 12px;
     }
   }
+
+  .clients {
+    .clients__wrap {
+      padding-top: 7px;
+    }
+
+    .clients__info {
+      padding-left: 8px;
+      padding-top: 10px;
+    }
+
+    .clients .clients__name {
+      font-size: 14px;
+    }
+
+    .clients .clients__data {
+      font-size: 14px;
+    }
+
+    .clients__img {
+      width: 17%;
+      padding-top: 7px;
+    }
+
+
+  }
+
+  .instagram {
+    margin-bottom: 100px;
+
+    .instagram__title {
+      margin-top: 40px;
+    }
+
+    .instagram__link {
+      font-size: 14px;
+      margin-bottom: 34px;
+    }
+
+    .instagram__slider {
+      left: 15px;
+      width: 95%;
+    }
+
+    .instagram__img {
+      max-width: 161px;
+    }
+
+    .instagram__slider .slick-slide {
+      margin: 0;
+      padding: 0;
+      width: 165px;
+    }
+  }
+
+  .blog {
+    .blog__content {
+      padding: 13px 0px 0px 18px;
+
+      .button .button__link {
+        padding: 0;
+        font-size: 14px;
+      }
+    }
+
+    .blog__img {
+      max-width: none;
+      width: 37.5%;
+    }
+
+    .pagination {
+      .pagination__item-active a,
+      .pagination__item a {
+        padding: 3px 11px;
+      }
+    }
+  }
+
+  .boutiques {
+    .boutiques__block {
+      width: calc(100% - 0px);
+      height: 415px;
+    }
+
+    .boutiques__content {
+      margin-top: 0;
+    }
+  }
+
+  .worldwide {
+    .worldwide__title {
+      margin-top: 45px;
+    }
+
+    .worldwide__subtitle {
+      margin-bottom: 48px;
+    }
+
+    .select__current {
+      padding: 16px 0 15px 21px;
+    }
+
+    .select {
+      width: 100%;
+    }
+
+    .worldwide__form {
+      margin-bottom: 42px;
+    }
+
+    .worldwide__subtitle-block {
+      font-size: 14px;
+    }
+
+    .worldwide__subtitle-block {
+      font-size: 14px;
+    }
+  }
+
+  .category {
+    .img-link__description h4 {
+      font-size: 20px;
+    }
+
+    .img-link__description p {
+      font-size: 14px;
+    }
+  }
+
+  .opportunities {
+    .opportunities__content {
+      margin: 246px 0 50px 0;
+
+      .opportunities__block {
+        margin-top: 21px;
+      }
+    }
+
+    .opportunities__title {
+      margin-top: 21px;
+      margin-bottom: 32px;
+    }
+
+    .img__opportunities {
+      //transform: scale(1.1);
+      //height: 181px;
+      height: 200px;
+      position: absolute;
+      left: 0;
+      width: 100%;
+    }
+  }
+
+  .event {
+    .event__button-bottom {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+  }
+
+
 }
 

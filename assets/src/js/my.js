@@ -77,9 +77,9 @@ $(document).ready(function () {
             {
                 breakpoint: 480,
                 settings: {
+                    variableWidth: true,
                     arrows: false,
-                    centerPadding: '40px',
-                    slidesToShow: 2,
+                    slidesToShow: 3,
 
                 }
             }
