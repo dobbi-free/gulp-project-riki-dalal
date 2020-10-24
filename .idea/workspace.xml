@@ -22,12 +22,17 @@
     <list default="true" id="1cb85594-8b6d-4c6c-b83d-fd8ebc95044c" name="Default Changelist" comment="ver preFinal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/boutiques.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/boutiques.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/couture.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/couture.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/fonts/Poppins.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/fonts/Poppins.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/fonts/Poppins.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/fonts/Poppins.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/fonts/Poppins.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/js/my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/partners.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/request.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/request.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/style/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/my.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/template/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/template/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +41,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="ad8c5ca8-bcaa-4011-be18-aaef9d4a21e9" />
   </component>
   <component name="ProjectId" id="1gN0mIsof49oxgrip3XWSSZENXw" />
   <component name="ProjectViewState">
@@ -49,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../build" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -199,7 +201,12 @@
       <workItem from="1602844444544" duration="107000" />
       <workItem from="1602844594760" duration="11113000" />
       <workItem from="1602930588222" duration="15891000" />
-      <workItem from="1603030289901" duration="2859000" />
+      <workItem from="1603030289901" duration="4097000" />
+      <workItem from="1603228497520" duration="311000" />
+      <workItem from="1603290876239" duration="9026000" />
+      <workItem from="1603304134562" duration="5000" />
+      <workItem from="1603457893077" duration="10420000" />
+      <workItem from="1603539776015" duration="3517000" />
     </task>
     <task id="LOCAL-00001" summary="ver preFinal">
       <created>1597942702042</created>
@@ -215,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599311220864</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ver preFinal">
+      <created>1603033278938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603033278938</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,38 +265,40 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="516" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1602938208509" />
-    <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1600509441279">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="567" y="212" key="FileChooserDialogImpl" timestamp="1603291667886">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="567" y="212" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603291667886" />
     <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1600509441279" />
-    <state width="1515" height="103" key="GridCell.Tab.0.bottom" timestamp="1603032301111">
+    <state width="1515" height="71" key="GridCell.Tab.0.bottom" timestamp="1603540604030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="103" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603032301111" />
+    <state width="1515" height="71" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603540604030" />
     <state width="1659" height="260" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600611713602" />
-    <state width="1515" height="103" key="GridCell.Tab.0.center" timestamp="1603032301111">
+    <state width="1515" height="71" key="GridCell.Tab.0.center" timestamp="1603540604030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="103" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603032301111" />
+    <state width="1515" height="71" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603540604030" />
     <state width="1659" height="260" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600611713602" />
-    <state width="1515" height="103" key="GridCell.Tab.0.left" timestamp="1603032301111">
+    <state width="1515" height="71" key="GridCell.Tab.0.left" timestamp="1603540604030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="103" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603032301111" />
+    <state width="1515" height="71" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603540604030" />
     <state width="1659" height="260" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600611713602" />
-    <state width="1515" height="103" key="GridCell.Tab.0.right" timestamp="1603032301111">
+    <state width="1515" height="71" key="GridCell.Tab.0.right" timestamp="1603540604030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="103" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603032301111" />
+    <state width="1515" height="71" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603540604030" />
     <state width="1659" height="260" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600611713602" />
     <state x="312" y="114" key="SettingsEditor" timestamp="1602417682352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="312" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602417682352" />
     <state x="341" y="149" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1599311200959" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1599413274579">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="395" y="194" key="Vcs.Push.Dialog.v2" timestamp="1603033313804">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="395" y="194" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603033313804" />
     <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1599413274579" />
     <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1600768874637">
       <screen x="0" y="0" width="1536" height="824" />

@@ -5,6 +5,7 @@ function deviceNav() {
     });
 };
 
+//= https://code.jquery.com/ui/1.12.1/jquery-ui.js
 
 $(document).ready(function () {
     deviceNav();
@@ -199,40 +200,40 @@ function deviceNav() {
 };
 
 
-$(function () {
-    var dateFormat = "mm/dd/yy",
-        from = $("#from")
-            .datepicker({
-                defaultDate: "+1w",
-                changeMonth: true,
-                numberOfMonths: 1
-            })
-            .on("change", function () {
-                to.datepicker("option", "minDate", getDate(this));
-            }),
-        to = $("#to").datepicker({
-            defaultDate: "+1w",
-            changeMonth: true,
-            numberOfMonths: 1
-        })
-            .on("change", function () {
-                from.datepicker("option", "maxDate", getDate(this));
-            });
-
-    function getDate(element) {
-        var date;
-        try {
-            date = $.datepicker.parseDate(dateFormat, element.value);
-        } catch (error) {
-            date = null;
-        }
-
-        return date;
-    }
-});
+// $(function () {
+//     var dateFormat = "mm/dd/yy",
+//         from = $("#from")
+//             .datepicker({
+//                 defaultDate: "+1w",
+//                 changeMonth: true,
+//                 numberOfMonths: 1
+//             })
+//             .on("change", function () {
+//                 to.datepicker("option", "minDate", getDate(this));
+//             }),
+//         to = $("#to").datepicker({
+//             defaultDate: "+1w",
+//             changeMonth: true,
+//             numberOfMonths: 1
+//         })
+//             .on("change", function () {
+//                 from.datepicker("option", "maxDate", getDate(this));
+//             });
+//
+//     function getDate(element) {
+//         var date;
+//         try {
+//             date = $.datepicker.parseDate(dateFormat, element.value);
+//         } catch (error) {
+//             date = null;
+//         }
+//
+//         return date;
+//     }
+// });
 
 $(".event__button-bottom").click(function () {
-    $(this).toggleClass("button__active", 1000,);
+    $(this).toggleClass("button__active", 400,);
 });
 
 $(document).ready(function () {
@@ -246,7 +247,11 @@ $(document).ready(function () {
     $('.open-desc').click(function (event) {
         $('.description-block,.svg-desc').addClass('active')
     });
+
+    $( "#from,#to" ).datepicker();
+
 });
+
 
 $(document).ready(function () {
     $('.close-desc').click(function (event) {
